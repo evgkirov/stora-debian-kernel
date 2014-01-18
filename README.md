@@ -16,6 +16,11 @@ It is based on Linux 3.10 (longterm maintenance release) and uses Debian's defau
     mkimage -A arm -O linux -T kernel  -C none -a 0x00008000 -e 0x00008000 -n Linux-3.10.26-stora -d /boot/vmlinuz-3.10.26-stora /boot/uImage
     mkimage -A arm -O linux -T ramdisk -C gzip -a 0x00000000 -e 0x00000000 -n initramfs-3.10.26-stora -d /boot/initrd.img-3.10.26-stora /boot/uInitrd
 
+If you need headers:
+
+    wget https://github.com/kirov/stora-debian-kernel/releases/download/v3.10.26/linux-headers-3.10.26-stora_1_armel.deb
+    dpkg -i linux-headers-3.10.26-stora_1_armel.deb
+
 
 ## How to build your own kernel for Stora
 
