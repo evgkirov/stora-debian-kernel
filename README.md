@@ -33,7 +33,7 @@ First we install packages
     apt-get update
     apt-get install build-essential fakeroot libncurses5-dev g++-arm-linux-gnueabi
 
-We need to remove architecture validation from `/usr/bin/dpkg-gencontrol`.Backup this file first!
+We need to remove architecture validation from `/usr/bin/dpkg-gencontrol`. Backup this file first!
 
     if (field_get_dep_type($_)) {
         # Delay the parsing until later
