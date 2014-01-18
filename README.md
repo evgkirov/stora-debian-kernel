@@ -1,4 +1,4 @@
-# Debian Wheezy Kernel for Netgear Stora
+# Debian Wheezy Kernel for Netgear Stora
 
 It is based on Linux 3.10 (longterm maintenance release) and uses Debian's default config for kirkwood. Unlike [johnou's kernel](https://github.com/johnou/debian_stora_kernel/) it doesn't include some nice patches but it supports ext4fs and other stuff.
 
